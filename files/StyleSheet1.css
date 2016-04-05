@@ -1,0 +1,154 @@
+﻿body
+{
+    font-family: 'Century Gothic';
+    width: 100%;
+    background-image:url(../images/Cloud2.png);
+    background-repeat:no-repeat;
+    background-position:center top 100px;
+    background-color: #ededed;
+}
+
+/*--All For Menu Bar Text--*/
+.header
+{
+    /*font properties*/
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+    height: 50px;               /*size of length of menu bar*/
+    background-color: #1c1c1c;
+    position: fixed;            /*fixes menu to top of page and scrolls w page*/
+    width: 100%;                /*stretch to entire page*/
+    top: 0px;                   /*no top margin*/
+    left: 0px;                  /*no left margin*/
+}
+    .header ul
+    {
+        min-width: 400px;      /*prevent aligned text from stacking*/
+        padding-left: 35%;     /*padding between items*/
+        list-style-type: none; /*removes bullets*/
+        margin: 0;             /*centers text in menu bar*/
+    }
+        .header ul li
+        {
+            float: left;        /*set text to side by side*/
+        }
+            .header ul li a
+            {
+                display: block;         /*make entire block clickable (not just text)*/
+                color: #ededed;         /*text color*/
+                padding: 14px 26px;     /*padding between words*/
+                text-decoration: none;  /*remove underscore*/
+            }
+/*---End of Menu Bar Text---*/
+
+.content
+{
+    /*position content to apear bellow C&T cloud logo
+     *and to start at far left of screen*/
+    position: absolute;
+    top: 750px;
+    left: 0;
+}
+    .content .eventgray
+    {
+        
+        background-color: #343434; /*Set bg-color of all events to (nice gray)*/
+        width: 100%;               /*Stretch bg-color to entire width of page*/
+    }
+        .content .eventgray img
+        {
+            max-width:100%;         /*Set image to scale to page*/ 
+            max-height:100%;
+            min-width: 600px;
+            margin:auto;
+            display:block;
+        }
+    .content .eventwhite
+    {
+        background-color:  #ededed; /*Set bg-color of all events to (nice gray)*/
+        width: 100%;               /*Stretch bg-color to entire width of page*/
+    }
+        .content .eventwhite img
+        {
+            max-width:100%; 
+            max-height:100%;
+            min-width: 600px;
+            margin:auto;
+            display:block;
+        }
+
+    .content .description
+    {
+        /*text properties*/      
+        font-family: 'Century Gothic';
+        text-align:left;
+
+        /*padding between top content and left of page*/
+        padding-left: 25%;
+        padding-top: 2.5%;
+        padding-bottom: 3%;
+        padding-right: 25%;
+    }
+        .content .description h1 
+        {
+            /*Color of header "Ramapo C&T Club"*/
+            color: #9e0020;
+        }
+        .content .description p
+        { 
+            line-height: 140%;  /*height spacing bettween lines*/
+            min-width: 500px;   /*set so text does not re-adjust if the page is too small*/
+        }
+.GuestSpeakers
+{
+    width: 25%;
+    margin: 0 auto; 
+    min-width:550px;
+}   
+    /*properties for hr line after desciption*/
+    .GuestSpeakers hr.line
+    {
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .GuestSpeakers img
+    {
+        max-width: 100px;
+        padding-right: 30px;
+    }
+    .GuestSpeakers h1
+    {
+        color: #9e0020;
+    }
+
+/*---Start of closing ---*/
+.closing
+{
+    position: absolute;
+    background-color: #343434;
+
+    margin-top: 15px;
+    height: 50px;
+    left:0;
+    right:0;
+
+}
+.closing ul
+{
+    list-style-type: none; /*removes bullets*/
+}
+    .closing ul li
+    {
+        padding-left:15px;     /*padding between items*/
+        float: left;        /*set text to side by side*/
+    }
+        .closing ul li a
+        {
+            color: #5c9642;         /*text color*/
+            text-decoration: none;  /*remove underscore*/
+        }
+/*---End of closing ---*/
