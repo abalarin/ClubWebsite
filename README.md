@@ -1,3 +1,3 @@
 # ClubWebsite
 ### Ramapo Computer and Technology, club website.
-### http://clubwebsite.azurewebsites.net/index.html#about
+### http://clubwebsite.azurewebsites.net/
